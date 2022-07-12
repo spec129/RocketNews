@@ -22,7 +22,7 @@ html {
     left: 50%;
     z-index: -1;
 
-    background-image: url(assets/read_news.jpg);
+    background-image: url(read_news.jpg);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: right top;
@@ -109,7 +109,7 @@ body {
     height: 50px;
 
     background-color: var(--bg-button-color);
-    background-image: url(assets/send.svg);
+    background-image: url(send.svg);
     background-repeat: no-repeat;
     background-position: center;
 }
