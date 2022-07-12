@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border-style: none;
+}
+
+html {
+    --body-bg-color: #121214;
+    --text-color: #E1E1E6;
+    --title-color: #04D361;
+    --form-color: #A8A8A8;
+    --bg-button-color: #8257E5;
+}
+
+.background-image {
+    width: 50%;
+    height: 720px;
+
+    position: absolute;
+    left: 50%;
+    z-index: -1;
+
+    background-image: url(assets/read_news.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: right top;
+    background-size: cover;
+}
+
+body {
+    font-size: 100%;
+    color: var(--text-color);
+    background-color: var(--body-bg-color);
+
+    font-family: 'League Spartan', sans-serif;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 50px 30px;
+}
+
+.header-logo {
+    width: 389px;
+}
+
+.content {
+    margin-top: 90px;
+    margin-left: 35px;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    gap: 10px;
+}
+
+.main-content-title {
+    color: var(--title-color);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 28px;
+}
+
+.main-content-subtitle {
+    font-size: 19px;
+}
+
+.main-content-paragraph {
+    font-size: 18px;
+    color: var(--form-color);
+}
+
+.form-content {
+    height: 100px;
+    margin-bottom: 50px;
+}
+
+.form-content-title {
+    font-size: 19px;
+    margin-bottom: 17px;
+    color: var(--form-color);
+}
+
+.form-content-area {
+    width: 800px;
+    height: 50px;
+    padding: 0px 15px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.5);
+}
+
+.form-content-area-slice {
+    position: relative;
+    bottom: 50px;
+    width: 6px;
+    height: 50px;
+    background-color: var(--title-color);
+}
+
+.form-content-button {
+    position: relative;
+    bottom: 100px;
+    left: 750px;
+    width: 50px;
+    height: 50px;
+
+    background-color: var(--bg-button-color);
+    background-image: url(assets/send.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.form-content-link {
+    font-size: 19px;
+    padding-bottom: 100px;
+    font-family: 'Work Sans', sans-serif;
+}
